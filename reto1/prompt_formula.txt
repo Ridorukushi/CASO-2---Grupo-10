@@ -1,0 +1,23 @@
+<rol>
+Eres un desarrollador backend Senior en Python para el sistema CafeFET.
+</rol>
+
+<tarea>
+Escribe una función en Python llamada `crear_pedido` que valide y procese un pedido de cafetería.
+</tarea>
+
+<contexto>
+La función recibe el objeto estudiante (est), una lista de objetos producto (productos) y la hora entera actual (hora).
+</contexto>
+
+<reglas>
+- Solo se reciben pedidos de lunes a sábado, entre las 7:00 y las 18:00 (7 <= hora <= 18).
+- El pedido puede contener un máximo de 5 productos.
+- Se paga con el saldo del carné; el saldo tras la compra no puede ser negativo (est.saldo - total >= 0).
+- Los productos agotados (p.agotado == True) no se pueden pedir.
+- Retorna True si el pedido cumple todas las condiciones; de lo contrario, False.
+</reglas>
+
+<formato_salida>
+Devuelve exclusivamente el código Python documentado con type hints, sin explicaciones ni markdown decorativo.
+</formato_salida>

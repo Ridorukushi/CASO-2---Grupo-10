@@ -1,0 +1,2 @@
+Toma los criterios de aceptación y genera una tabla Markdown con las columnas: Caso | Entrada | Resultado esperado | Criterio que cubre.
+REGLA OBLIGATORIA: Revisa que cada criterio tenga al menos un caso de prueba asociado en la tabla.

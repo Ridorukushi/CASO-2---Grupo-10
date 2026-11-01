@@ -1,0 +1,3 @@
+Genera entre 3 y 5 criterios de aceptación en formato Dado / Cuando / Entonces para la historia:
+Como estudiante, quiero repetir mi último pedido con un solo clic, para ahorrar tiempo en la cafetería.
+Usa las reglas de CafeFET: horario 7 a 18, máximo 5 productos y saldo no negativo.

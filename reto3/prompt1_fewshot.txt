@@ -1,0 +1,12 @@
+Convierte el requisito dado en una Historia de Usuario con la estructura 'Como..., quiero..., para...'.
+
+Ejemplo 1:
+Requisito: Permitir pago con saldo del carné.
+Historia: Como estudiante, quiero pagar mis consumos con el saldo digital de mi carné, para no tener que llevar dinero en efectivo.
+
+Ejemplo 2:
+Requisito: Consultar estado del pedido.
+Historia: Como estudiante, quiero ver en pantalla el estado de mi pedido, para saber exactamente cuándo ir a retirarlo.
+
+Requisito a procesar:
+'Que el estudiante pueda repetir su último pedido con un solo clic.'
