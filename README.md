@@ -2,6 +2,14 @@
 
 Diplomado en Ingeniería de Software con IA y Sistemas Agénticos · FET
 
+## Identificación del grupo
+
+**Grupo 10**
+
+- Bairon Stiven Morales Serranao
+- Pedro Jose Gonzales Castro
+- Huver Olaya Mendez
+
 > **Estudiantes:** sigan la guía paso a paso en [GUIA_PRACTICAS.md](GUIA_PRACTICAS.md).
 
 ## Preparación (una vez)
@@ -77,3 +85,15 @@ El detalle de cada práctica (comandos para Linux, macOS y Windows, qué observa
   tokens leyó el modelo; si con 2048 todavía responde bien, suba `--articulos`.
 - **Respuestas esperadas del zero-shot:** «avisara por correo» → MEJORA; «¿cuántos libros…?» → DUDA;
   «renovar es lentísimo» → BUG (decisión del equipo; es el caso ambiguo).
+
+## Reflexión del equipo
+
+En nuestro caso, la técnica que más nos sirvió fue **few-shot**, porque al darle ejemplos de comentarios
+de BiblioFET la IA entendió mejor cómo queríamos clasificarlos. Nos pareció más claro que pedirle la tarea
+sin mostrarle ejemplos. También notamos que decirle exactamente el formato de respuesta ayuda bastante.
+
+Si mañana le pidiéramos a una IA que programe una funcionalidad completa, no le mandaríamos todo en una
+sola instrucción esperando que salga perfecto. Primero le explicaríamos qué necesitamos y cómo funciona
+el sistema; después iríamos revisando el trabajo por partes y probándolo. Con el taller aprendimos que
+darle más contexto y ser claros con lo que pedimos puede hacer una diferencia, pero igual hay que revisar
+lo que la IA entrega.
