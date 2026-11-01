@@ -1,0 +1,12 @@
+Actúa como ingeniero de prompts. Te doy un prompt y salidas que produjo.
+1. Diagnostica qué le falta usando cinco criterios: qué quiero, para quién, contexto, formato de salida y restricciones.
+2. Reescribe el prompt mejorado.
+3. Explica cada cambio en una línea.
+
+<prompt>
+(pegue aquí el prompt original)
+</prompt>
+
+<salidas>
+(pegue aquí 2 o 3 salidas que no le gustaron y diga por qué)
+</salidas>

@@ -1,0 +1,11 @@
+Un estudiante activo, sin multas y con 3 préstamos activos logró sacar un cuarto libro.
+¿Por qué la función puede_prestar dejó pasar el préstamo? Responde en una línea.
+
+<codigo>
+def puede_prestar(est, prestamos):
+    if not est.activo:
+        return False
+    if len(prestamos) > 3:
+        return False
+    return True
+</codigo>

@@ -1,0 +1,5 @@
+[QUÉ QUIERO] Escribe la función validar_prestamo(estudiante, libro, prestamos_activos) en Python 3.12.
+[PARA QUIÉN] La usará el backend FastAPI de BiblioFET y la mantendrán desarrolladores junior.
+[CONTEXTO] Un préstamo es válido si el estudiante está activo, no tiene multas pendientes (multa == 0) y tiene menos de 3 préstamos activos. Los libros de la colección de referencia (libro.es_referencia == True) no se prestan.
+[FORMATO] Devuelve solo el código, con type hints y docstring. La función retorna una tupla (bool, motivo), donde motivo explica el rechazo o es "OK".
+[RESTRICCIONES] Sin librerías externas. No accedas a la base de datos: recibe los datos como parámetros. Máximo 30 líneas.

@@ -1,0 +1,10 @@
+Convierte pedidos de la bibliotecaria en historias de usuario.
+
+Pedido: "Que se pueda ver qué libros tengo prestados"
+Historia: Como estudiante, quiero ver mis préstamos activos y su fecha de vencimiento, para no pagar multas por olvido.
+
+Pedido: "Que el sistema bloquee a los que deben multas"
+Historia: Como bibliotecaria, quiero que el sistema rechace préstamos de estudiantes con multas pendientes, para recuperar la cartera.
+
+Pedido: "Que los profesores puedan sacar más libros"
+Historia:

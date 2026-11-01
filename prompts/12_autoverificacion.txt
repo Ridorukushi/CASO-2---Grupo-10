@@ -1,0 +1,4 @@
+Escribe pruebas pytest para la función validar_prestamo(estudiante, libro, prestamos_activos) de BiblioFET, que retorna una tupla (bool, motivo).
+Reglas: el estudiante debe estar activo, no tener multas pendientes y tener menos de 3 préstamos activos; los libros de referencia no se prestan.
+Antes de entregar, revisa que cada regla tenga al menos una prueba. Si falta alguna, agrégala y al final indica en un comentario cuál agregaste.
+Devuelve solo el código.

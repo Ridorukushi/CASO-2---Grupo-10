@@ -1,0 +1,31 @@
+PRÁCTICA 14B · LA INSTRUCCIÓN QUE SE OLVIDA EN UN CHAT LARGO
+Escriba cada línea dentro del chat de Ollama, una por una.
+
+=== VERSIÓN A · la regla como mensaje del chat ===
+
+ollama run qwen-demo --think=false
+
+/set parameter num_ctx 512
+Regla: empieza SIEMPRE tu respuesta con «Claro, vamos». ¿Entendido?
+Explica en al menos 400 palabras cómo funciona un préstamo de biblioteca.
+Explica en al menos 400 palabras qué es una base de datos relacional.
+
+Resultado esperado: la primera respuesta empieza con «Claro, vamos»; la segunda ya no.
+
+=== VERSIÓN B · la misma regla como system prompt ===
+
+/clear
+/set system Empieza SIEMPRE tu respuesta con «Claro, vamos».
+Explica en al menos 400 palabras cómo funciona un préstamo de biblioteca.
+Explica en al menos 400 palabras qué es una base de datos relacional.
+
+Resultado esperado: las dos respuestas empiezan con «Claro, vamos».
+
+/bye
+
+=== SI NO FUNCIONA A LA PRIMERA ===
+
+- Si la segunda respuesta de la versión A todavía empieza con «Claro, vamos»,
+  probablemente la primera respuesta fue corta y siguió en la ventana: el modelo
+  la imitó. Haga una tercera pregunta igual de larga o baje la ventana:
+  /set parameter num_ctx 384

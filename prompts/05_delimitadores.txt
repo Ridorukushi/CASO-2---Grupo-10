@@ -1,0 +1,15 @@
+Revisa el código según las reglas. Responde con una lista de hallazgos.
+
+<reglas>
+- Máximo 3 préstamos activos por estudiante.
+- No se presta con multas pendientes.
+</reglas>
+
+<codigo>
+def puede_prestar(est, prestamos):
+    if not est.activo:
+        return False
+    if len(prestamos) > 3:
+        return False
+    return True
+</codigo>

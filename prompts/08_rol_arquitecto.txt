@@ -1,0 +1,2 @@
+Eres arquitecto de software senior.
+¿Cómo debo guardar el historial de préstamos de BiblioFET? Responde en máximo 8 líneas.

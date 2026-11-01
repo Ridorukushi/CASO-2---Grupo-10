@@ -1,0 +1,2 @@
+Eres docente de primer semestre de ingeniería de software.
+¿Cómo debo guardar el historial de préstamos de BiblioFET? Responde en máximo 8 líneas.

@@ -1,0 +1,4 @@
+Escribe pruebas pytest para la función validar_prestamo(estudiante, prestamos_activos) de BiblioFET.
+Reglas: máximo 3 préstamos activos, sin multas pendientes, estudiante activo.
+Incluye los casos límite de 2, 3 y 4 préstamos activos.
+Devuelve solo el código.

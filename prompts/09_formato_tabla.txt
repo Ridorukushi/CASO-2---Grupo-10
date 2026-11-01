@@ -1,0 +1,9 @@
+Con estos préstamos vencidos de BiblioFET, devuelve una tabla Markdown con columnas:
+Estudiante | Libro | Días de atraso | Multa (COP). La multa es de $1.000 por día de atraso.
+Ordena por días de atraso, de mayor a menor. Sin texto antes ni después de la tabla.
+
+<datos>
+Andrés Peña, "Clean Code", vencía el 3 de octubre, hoy es 8 de octubre
+Laura Gómez, "Cálculo de una variable" de Stewart, vencía el 26 de septiembre
+Sofía Ruiz, "Cien años de soledad", vencía el 6 de octubre
+</datos>

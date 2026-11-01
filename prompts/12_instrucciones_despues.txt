@@ -1,0 +1,2 @@
+Explica qué es una multa en BiblioFET con palabras que entienda un estudiante de primer semestre.
+Responde en máximo 160 caracteres, porque el texto se envía como notificación al celular.

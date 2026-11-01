@@ -1,0 +1,13 @@
+Un estudiante activo, sin multas y con 3 préstamos activos logró sacar un cuarto libro.
+Evalúa la función paso a paso con estos datos: est.activo = True, len(prestamos) = 3.
+Para cada if, escribe la condición, su valor (True o False) y si la función retorna en ese punto.
+Después di qué línea tiene el error y escribe la corrección.
+
+<codigo>
+def puede_prestar(est, prestamos):
+    if not est.activo:
+        return False
+    if len(prestamos) > 3:
+        return False
+    return True
+</codigo>

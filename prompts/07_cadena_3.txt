@@ -1,0 +1,6 @@
+Escribe pruebas pytest, una por criterio, para la función renovar(prestamo, hoy) -> Prestamo, que lanza ValueError cuando no se puede renovar.
+Usa nombres de prueba descriptivos en español. Devuelve solo el código.
+
+<criterios>
+(pegue aquí la salida del paso 2)
+</criterios>

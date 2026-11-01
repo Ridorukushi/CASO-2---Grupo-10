@@ -1,0 +1,4 @@
+Eres analista de requisitos de BiblioFET.
+Convierte este requisito en UNA historia de usuario con el formato: Como <rol>, quiero <acción>, para <beneficio>.
+Requisito: "que los estudiantes puedan renovar un préstamo desde la app".
+Devuelve solo la historia.

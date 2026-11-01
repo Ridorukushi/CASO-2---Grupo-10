@@ -1,0 +1,10 @@
+Clasifica el reporte de un usuario de BiblioFET en UNA categoría: BUG, MEJORA o DUDA.
+Responde solo con la categoría.
+
+Reporte: "Busco por autor García Márquez y la app se queda cargando."
+
+Reporte: "Ojalá avisara 2 días antes del vencimiento"
+
+Reporte: "¿Cuántos libros puedo tener a la vez?"
+
+Reporte: "Renovar es lentísimo, ¿eso es normal?"

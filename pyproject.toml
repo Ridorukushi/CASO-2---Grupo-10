@@ -1,0 +1,10 @@
+[project]
+name = "fet-diplomadoia-prompting-p2"
+version = "0.1.0"
+description = "Kit de prácticas de ingeniería de prompts y de contexto con Ollama · Diplomado FET"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ollama>=0.5",
+    "pydantic>=2",
+]

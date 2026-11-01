@@ -1,0 +1,10 @@
+Compara los criterios con las pruebas.
+Para cada criterio indica qué prueba lo cubre. Si algún criterio no tiene prueba, escribe la prueba que falta.
+
+<criterios>
+(salida del paso 2)
+</criterios>
+
+<pruebas>
+(salida del paso 3)
+</pruebas>
